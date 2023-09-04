@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <form action="">
+    <button class="button" type="button" data-action="open-modal">Відкрити модалку</button>
+
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <h2>Modal window</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque corrupti illo quisquam, blanditiis consectetur optio eligendi delectus saepe fugit voluptatem dolor, alias aperiam magnam tenetur id dolores omnis iusto non.</p>
+            <button type="button" class="button-close" data-action="close-modal">Close</button>
+        </div>
+    </div>
+
+
+    <!-- <form action="">
         <p>Chouse a color:</p>
         <lapel>
             <input type="radio" name="color" value="red">
@@ -30,8 +41,9 @@
 
     <input type="range" id="font-size-control">
     <br>
-    <span id="text">Абракадабра!</span>
+    <span id="text">Абракадабра!</span> -->
 
+    <script src="./js/1-task.js" type="module"></script>
     <script src="./js/2-task.js" type="module"></script>
     <script src="./js/3-task.js" type="module"></script>
     <script src="./js/4-task.js" type="module"></script>
