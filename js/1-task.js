@@ -1,4 +1,4 @@
-let openModal = document.querySelector('[show-modal]');
+let openModal = document.querySelector('.button');
 
 const jsBackdrop = document.querySelector('.backdrop');
 
@@ -8,5 +8,4 @@ function toggleModel () {
 }
 
 const closeModal = document.querySelector(".button-close");
-
-openModal.addEventListener('click', toggleModel)
+closeModal.addEventListener('click', toggleModel)
